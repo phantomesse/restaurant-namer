@@ -2,3 +2,18 @@
   font-family: 'Chow Fun';
   src: url('../fonts/asian/Chow\ Fun.ttf') format('truetype');
 }
+
+@font-face {
+  font-family: 'Karate';
+  src: url(../fonts/asian/Karate.ttf) format(truetype);
+}
+
+@font-face {
+  font-family: 'Shikamaru';
+  src: url(../fonts/asian/Shikamaru.ttf) format(truetype);
+}
+
+@font-face {
+  font-family: 'Sudoku';
+  src: url(../fonts/asian/Sudoku.ttf) format(truetype);
+}

@@ -32,3 +32,10 @@ export function generateAsianRestaurantName() {
   const suffix = getRandomValueFromArray(_SUFFIXES);
   return `${prefix} ${suffix}`;
 }
+
+export const ASIAN_RESTAURANT_FONT_NAMES = [
+  'Chow Fun',
+  'Karate',
+  'Shikamaru',
+  'Sudoku',
+];

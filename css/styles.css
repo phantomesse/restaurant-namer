@@ -3,7 +3,7 @@
 :root {
   --bg-color: #982B1C;
   --fg-color: #F2E8C6;
-  --font-family: "Chow Fun", sans-serif;
+  --restaurant-name-font-family: sans-serif;
 }
 
 html,
@@ -11,7 +11,7 @@ body {
   background-color: var(--bg-color);
   color: var(--fg-color);
   width: 100%;
-  font: 14px var(--font-family);
+  font: 14px 'Open Sans', sans-serif;
   height: 100%;
   margin: 0;
   padding: 0;
@@ -25,7 +25,6 @@ body {
 }
 
 #restaurant-name {
-  font-size: 48px;
-  font-weight: normal;
+  font: normal 48px var(--restaurant-name-font-family);
   margin-bottom: 24px;
 }
