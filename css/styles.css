@@ -1,0 +1,31 @@
+@import url('asian-restaurants.css');
+
+:root {
+  --bg-color: #982B1C;
+  --fg-color: #F2E8C6;
+  --font-family: "Chow Fun", sans-serif;
+}
+
+html,
+body {
+  background-color: var(--bg-color);
+  color: var(--fg-color);
+  width: 100%;
+  font: 14px var(--font-family);
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#restaurant-name {
+  font-size: 48px;
+  font-weight: normal;
+  margin-bottom: 24px;
+}
