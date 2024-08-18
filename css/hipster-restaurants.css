@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'Another Typewriter';
+  src: url(../fonts/hipster/Another\ Typewriter.ttf) format(truetype);
+}
+
+@font-face {
+  font-family: 'Cinematografica';
+  src: url(../fonts/hipster/Cinematografica.ttf) format(truetype);
+}
+
+@font-face {
+  font-family: 'Kaoly';
+  src: url(../fonts/hipster/Kaoly.ttf) format(truetype);
+}
+
+@font-face {
+  font-family: 'Rusilla Serif';
+  src: url(../fonts/hipster/Rusilla\ Serif.ttf) format(truetype);
+}

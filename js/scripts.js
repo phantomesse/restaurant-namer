@@ -2,7 +2,10 @@ import {
   ASIAN_RESTAURANT_FONT_NAMES,
   generateAsianRestaurantName,
 } from './asian-restaurants.js';
-import { generateHipsterRestaurantName } from './hipster-restaurants.js';
+import {
+  generateHipsterRestaurantName,
+  HIPSTER_RESTAURANT_FONT_NAMES,
+} from './hipster-restaurants.js';
 import { getRandomValueFromArray, getUrlParam } from './utils.js';
 
 // Get type of restaurant to generate a name for.
@@ -20,6 +23,7 @@ document.getElementById('restaurant-name').innerText = restaurantName;
 // Set the font.
 const restaurantTypeToFontNamesMap = {
   asian: ASIAN_RESTAURANT_FONT_NAMES,
+  hipster: HIPSTER_RESTAURANT_FONT_NAMES,
 };
 const fontName = getRandomValueFromArray(
   restaurantTypeToFontNamesMap[restaurantType] ?? []

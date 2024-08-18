@@ -21,3 +21,10 @@ export function generateHipsterRestaurantName() {
   const operator = getRandomValueFromArray(_OPERATORS);
   return `${word1} ${operator} ${word2}`;
 }
+
+export const HIPSTER_RESTAURANT_FONT_NAMES = [
+  'Another Typewriter',
+  'Cinematografica',
+  'Kaoly',
+  'Rusilla Serif',
+];

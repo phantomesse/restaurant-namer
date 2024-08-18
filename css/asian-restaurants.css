@@ -17,3 +17,23 @@
   font-family: 'Sudoku';
   src: url(../fonts/asian/Sudoku.ttf) format(truetype);
 }
+
+@font-face {
+  font-family: 'Harukaze';
+  src: url(../fonts/asian/Harukaze.ttf) format(truetype);
+}
+
+@font-face {
+  font-family: 'Kashima';
+  src: url(../fonts/asian/Kashima.otf) format(opentype);
+}
+
+@font-face {
+  font-family: 'Katana';
+  src: url(../fonts/asian/Katana.ttf) format(truetype);
+}
+
+@font-face {
+  font-family: 'Shanghai';
+  src: url(../fonts/asian/Shanghai.ttf) format(truetype);
+}

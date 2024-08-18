@@ -38,4 +38,8 @@ export const ASIAN_RESTAURANT_FONT_NAMES = [
   'Karate',
   'Shikamaru',
   'Sudoku',
+  'Harukaze',
+  'Kashima',
+  'Katana',
+  'Shanghai',
 ];
